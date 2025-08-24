@@ -1,0 +1,24 @@
+.intro-text {
+  text-align: justify;
+}
+
+.paragraph {
+  text-indent: 2em;
+  line-height: 1.7;
+  font-size: 1rem;
+  opacity: 0;
+  animation: fadeInOut 30s linear infinite;
+}
+
+.wave {
+  display: block;
+}
+
+/* Blinking/fading transition */
+/* Blinking/fading transition */
+@keyframes fadeInOut {
+  0% { opacity: 0; transform: translateY(10px); }
+  10% { opacity: 1; transform: translateY(0); }
+  90% { opacity: 1; transform: translateY(0); }
+  100% { opacity: 0; transform: translateY(-10px); }
+}
