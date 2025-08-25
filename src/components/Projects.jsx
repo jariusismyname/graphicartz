@@ -122,7 +122,7 @@ const q = query(collection(db, WORKS_COLL), orderBy("order", "asc"));
   return (
     <div className="section">
       <div className="section-head">
-        <h2 className="section-title">Projects</h2>
+        <h2 className="section-title">Projects </h2>
         {isAdmin && <span className="badge">Admin mode</span>}
       </div>
 

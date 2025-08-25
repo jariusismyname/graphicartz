@@ -3,12 +3,13 @@ import "./intro.css"; // we'll use separate CSS for waves and styling
 
 export default function Intro() {
   const paragraphs = [
-    "I began my dream with just a single Crayola. I loved joining competitions, from poster-making to slogan contests. Oil pastels revealed the artist within me. Creativity spoke to me in its purest form.I started drawing on borrowed notebooks, turning margins into little worlds. I discovered colors, textures, and shapes that felt like magic in my hands. Every sketch told a story, every doodle offered a lesson. Over time, I realized that art was more than drawing—it was a way to communicate emotions.I explored different mediums and learned to embrace mistakes as part of the process. With each page, I built confidence and developed a unique style. Sharing my work online brought feedback and encouragement, while collaborating with friends inspired new techniques and ideas. I found joy in simple daily sketches. Slowly, this passion transformed into my purpose.",
+    "I am a passionate digital artist and video editor who started exploring creativity from a young age, turning simple sketches into expressive visual stories. Over time, I developed skills in Adobe Photoshop, Illustrator, Lightroom, and video editing tools, experimenting with colors, composition, and effects to communicate ideas effectively. I thrive in creating digital artworks, posters, and multimedia projects that engage and inspire audiences.",
 
-    "Ever since I was a kid I want to be an architect, but I end up having a degree in Computer Engineer, and I always want to be an artist and be creative by editing short videos. It taught me rhythm, pacing, and how pictures can move feelings. I learned transitions, timing, and storytelling through clips. Combining visuals and sound created immersive experiences. Each project improved my patience and attention to detail. I explored various tools to enhance my workflow. I analyzed videos frame by frame to perfect every scene. Sharing videos online brought community and critiques. I discovered trends while maintaining my voice. Projects ranged from personal experiments to collaborative pieces. The process sharpened my creative and technical skills.",
-  
-    "I am a self-taught digital artist and graphic designer. I started with basic tools and gradually explored advanced software. Experimenting with different styles helped me find my unique voice. I learned about color theory, composition, and typography through online tutorials and practice. Creating logos, posters, and illustrations allowed me to apply design principles in real projects. Feedback from clients and peers was invaluable for growth. I stay updated on design trends while developing a timeless aesthetic. Each project challenges me to think creatively and solve visual problems. I enjoy collaborating with others to bring ideas to life through design."
+    "Through personal projects and collaborations, I gained hands-on experience in video editing, storytelling, and multimedia production. I am skilled in combining visuals, sound, and pacing to deliver polished short videos and vlogs. These projects strengthened my attention to detail, patience, and creative problem-solving, allowing me to translate concepts into impactful visual content.",
+
+    "I am eager to contribute my design and editing skills to a professional team, continuing to grow as a digital artist while delivering high-quality creative solutions. I stay updated on industry trends, enjoy experimenting with new techniques, and adapt quickly to new tools and software. My goal is to create visually engaging content that resonates with audiences and supports creative projects in any organization."
   ];
+
 
   const [index, setIndex] = useState(0);
 
@@ -47,7 +48,7 @@ export default function Intro() {
 
           {/* Download CV Button */}
           <a
-            href="/artist_cv.pdf" // Replace with your CV path
+            href="/ga.pdf" // Replace with your CV path
             download
             className="btn download-cv"
             style={{
